@@ -1,0 +1,55 @@
+package lpa;
+
+import java.util.Scanner;
+
+public class teste5 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner (System.in);
+		System.out.print("Informe o mês: ");
+		String mes = ler.next();
+		
+		switch (mes) {
+		case ("Janeiro"):
+			System.out.print("Janeiro é referente ao mês 01");
+			break;
+		case ("Fevereiro"):
+			System.out.print("Fevereiro é referente ao mes 02");
+			break;
+		case ("Março"):
+			System.out.print("Março é referente ao mês 03");
+			break;
+		case ("Abril"):
+			System.out.print("Abril é referente ao mês 04");
+					
+		case ("Maio"):
+			System.out.print("Maio é referente ao mês 05");
+			break;
+		case ("Junho"):
+			System.out.print("Junho é referente ao mês 06");
+			break;
+		case ("Julho"):
+			System.out.print("Julho é referente ao mês 07");
+			break;
+		case ("Agosto"):
+			System.out.print("Agosto é referente ao mês 08");
+			break;
+		case ("Setembro"):
+			System.out.print("Setembro é referente ao mês 09");
+			break;
+		case ("Outubro"):
+			System.out.print("Outubro é referente ao mês 10");
+			break;
+		case ("Novembro"):
+			System.out.print("Novembro é referente ao mês 11");
+			break;
+		case ("Dezembro"):
+			System.out.print("Dezembro é referente ao mês 12");
+			break;
+		default:
+			System.out.println("O mês escolhido é inválido!");
+
+	}
+
+}
+}
